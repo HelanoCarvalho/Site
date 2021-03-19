@@ -1,0 +1,176 @@
+@font-face {
+   font-family: freebooter;
+   src: url(FREEBSC_.ttf);
+}
+   
+
+body{
+  background-color: rgba(230, 0, 255, 0.212);
+}
+
+/* Título */
+div#titulo{
+   font-family: freebooter;
+   text-align: center;
+   font-size: 30pt;
+   margin-top: 0px;
+   color:rgb(173, 72, 255);
+}
+
+div.preco{
+   background-color: rgba(234, 119, 247, 0.774);
+   color: black;
+   position: absolute;
+   width: 90px;
+   height: 30px;
+   top: 0px;
+   right: 44px;
+   text-align: center;
+   padding-top: 5px;
+   border-radius: 10px;
+   font-size: 15pt;
+}
+
+div.imagem{
+   position: relative;
+   display: inline-block;
+}
+
+section{
+   width: auto;
+}
+
+/* Imagens */
+img{
+   position: relative;
+   width: 300px;
+   height: 400px;
+   margin-top: -20px;
+   margin-left: 190px;
+   margin-bottom: 50px;
+   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.685);
+   border: solid rgb(206, 157, 247) 5px;
+   
+}
+
+/* Legenda dentro da imagem*/
+figcaption{
+   opacity: 0;
+   transition: 1s;
+   position: absolute;
+   width: 300px;
+   height: 400px;
+   background-color: rgba(152, 123, 173, 0.918);
+   margin-top: -460px;
+   margin-left: 195px;
+}
+figcaption:hover{
+   opacity: 1;
+   transition: 1s;
+}
+
+/* Conteúdo da legenda */
+h1, h2{
+   margin-top: 0px;
+   margin-bottom: 10px;
+   margin-left: 5px;
+}
+
+p{
+   text-align: left;
+   margin-top: -10px;
+   margin-bottom: 10px;
+   margin-left: 20px;
+   padding: 1px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14pt;
+   font-style: normal;
+   color: black;
+}
+
+hr{
+   width: 280px;
+   margin-top: -5px;
+   margin-bottom: 15px;
+   border: solid 1px black;
+   
+}
+
+label{
+   float: left;
+   width: 110px;          
+}
+
+input#P{
+   display: inline;
+   cursor: pointer;
+   background-color:  rgba(205, 152, 255, 0.616);
+   border: solid black 1px;
+   border-radius: 8px;
+   font-size: 11pt;
+}
+input#G{
+   width: 90px;
+
+   cursor: pointer;
+   background-color:  rgba(205, 152, 255, 0.616);
+   border: solid black 1px;
+   border-radius: 8px;
+   font-size: 13pt;
+}
+
+input:focus{
+   outline: none;
+}
+
+.ml{
+   text-align: right;
+}
+
+a{
+   color:rgba(0, 0, 0, 0.589);
+}
+
+footer {
+   position:absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+
+#msg{
+   transition-duration: 2s;
+   left: 225px;
+   top: 290px;
+   background: rgb(206, 157, 247);
+   border-radius: 15px;
+   width: 250px;
+   height: 60px;
+
+   position: absolute;
+}
+
+
+#msg:after{
+
+   content: "";
+
+   width: 0;
+   height: 0;
+
+   position: absolute;
+
+   border-left: 10px solid transparent;
+   border-right: 10px solid transparent;
+   border-top: 15px solid rgb(206, 157, 247);
+
+   bottom: -15px;
+   left: 20%;
+}
+
+#msg p{
+   position: relative;
+   top: 10px;
+   right: 5px;
+   color: rgb(75, 23, 117);
+}
