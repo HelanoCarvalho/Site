@@ -174,3 +174,59 @@ footer {
    right: 5px;
    color: rgb(75, 23, 117);
 }
+
+@media screen and (max-width: 1200px){
+   img{
+      margin-left: 110px;
+   }
+   figcaption{
+      margin-left: 115px;
+   }
+}
+
+@media screen and (max-width: 1035px){
+   img{
+      margin-left: 70px;
+   }
+   figcaption{
+      margin-left: 75px;
+   }
+}
+
+@media screen and (max-width: 960px){
+   img{
+      margin-left: 10px;
+   }
+   figcaption{
+      margin-left: 15px;
+   }
+}
+
+@media screen and (max-width: 840px){
+   img{
+      margin-left: 190px;
+   }
+   figcaption{
+      margin-left: 195px;
+   }
+}
+
+@media screen and (max-width: 640px){
+   img{
+      margin-left: 100px;
+   }
+   figcaption{
+      margin-left: 105px;
+   }
+}
+
+@media screen and (max-width: 520px){
+   img{
+      margin-left: 30px;
+   }
+   figcaption{
+      margin-left: 35px;
+   }
+}
+
+
