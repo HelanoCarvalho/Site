@@ -5,7 +5,7 @@
    
 
 body{
-  background-color: rgba(230, 0, 255, 0.212);
+  background-color: rgba(205, 152, 255, 0.616);
 }
 
 /* Título */
@@ -111,7 +111,6 @@ input#P{
 }
 input#G{
    width: 90px;
-
    cursor: pointer;
    background-color:  rgba(205, 152, 255, 0.616);
    border: solid black 1px;
