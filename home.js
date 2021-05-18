@@ -133,5 +133,54 @@ function mensagem4(){
     }, 9000);
 }
 
+function mensagem5(){
+    removeEventListener('mouseenter', mensagem4)
+    var msg = document.createElement('div')
+    msg.style.opacity = 0
+    msg.setAttribute("id", "msg")
+    var p = document.createElement('p')
+    var txt = document.createTextNode("Frete grátis e encomenda sob medida")
+    setTimeout(function(){
+        p.appendChild(txt)
+        msg.appendChild(p)
+        div[5].appendChild(msg)
+    }, 1000);
 
+   setTimeout(function(){
+    msg.style.opacity = 1
+   }, 2000);
 
+     setTimeout(function() {
+        msg.style.opacity = 0
+    }, 7000);
+
+    setTimeout(function() {
+        msg.remove()
+    }, 9000);
+}
+
+function mensagem6(){
+    removeEventListener('mouseenter', mensagem4)
+    var msg = document.createElement('div')
+    msg.style.opacity = 0
+    msg.setAttribute("id", "msg")
+    var p = document.createElement('p')
+    var txt = document.createTextNode("Frete grátis e encomenda sob medida")
+    setTimeout(function(){
+        p.appendChild(txt)
+        msg.appendChild(p)
+        div[6].appendChild(msg)
+    }, 1000);
+
+   setTimeout(function(){
+    msg.style.opacity = 1
+   }, 2000);
+
+     setTimeout(function() {
+        msg.style.opacity = 0
+    }, 7000);
+
+    setTimeout(function() {
+        msg.remove()
+    }, 9000);
+}
